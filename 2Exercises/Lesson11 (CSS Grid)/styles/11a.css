@@ -1,0 +1,12 @@
+.div1{
+  background-color: rgba(0, 140, 255, 0.301);
+}
+
+.div2{
+  background-color: rgba(255, 192, 203, 0.712);
+}
+
+.div-grid{
+  display: grid;
+  grid-template-columns: 200px 75px;
+}

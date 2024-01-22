@@ -1,0 +1,24 @@
+.div1{
+  background-color: blue;
+  height: 200px;
+}
+
+.div2{
+  background-color: pink;
+  height: 200px;
+}
+
+.grid1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 30px;
+}
+
+.grid2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 30px;
+  column-gap: 20px;
+  row-gap: 20px ;
+
+}

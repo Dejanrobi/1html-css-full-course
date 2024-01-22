@@ -1,0 +1,57 @@
+.image{
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+
+p{
+  font-family: Arial;
+  font-size: 18px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 4px;
+}
+
+.name{
+  font-weight: bold;
+}
+
+.description, .popularity{
+  opacity: 0.5;
+}
+
+.follow-button{
+  background-color: rgb(0, 47, 255);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 18px;
+  padding-left: 18px;
+  opacity: 0.6;
+  border-radius: 6px;
+}
+
+.popularity-flexbox{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.popularity-div{
+  width: 250px;
+  margin-left: 18px;
+}
+
+/* .name, .description, .popularity{
+  margin-left: 18px;
+} */
+
+.popularity{
+  font-size: 17px;
+}

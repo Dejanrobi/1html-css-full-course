@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <style>
+    .stretch-button{
+      background-color: green;
+      color: white;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 25px;
+      padding-right: 25px;
+      border: none;
+      font-size: 23px;
+      cursor: pointer;
+      /*we name to allocate the transition to each item on the element*/
+      transition: padding-left 1s, padding-right 1s, padding-bottom 1s, padding-top 1s;
+    }
+
+    .stretch-button:hover{
+      padding-left: 60px;
+      padding-right: 60px;
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
+  </style>
+  <button class="stretch-button">Stretch</button>
+</body>
+</html>

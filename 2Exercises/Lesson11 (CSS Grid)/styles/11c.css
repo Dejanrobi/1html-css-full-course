@@ -1,0 +1,10 @@
+.div1{
+  background-color: rgba(255, 192, 203, 0.747);
+}
+
+.div-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 10px;
+}

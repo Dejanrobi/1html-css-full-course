@@ -1,0 +1,16 @@
+/*Position absolute: the element moves whenever you scroll down*/
+
+button{
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  font-size: 15px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+body{height: 3000px;}

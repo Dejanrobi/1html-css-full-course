@@ -1,0 +1,37 @@
+.name, .notify{
+  font-family: Arial;
+  font-size: 20px;
+}
+
+.notify{
+  background-color: blue;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 16px;
+  padding-left: 16px;
+  border-radius: 18px;
+  font-weight: bold;
+  opacity: 0.5;
+}
+
+.notify-flexbox{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* width: 400px; */
+  align-items: center;
+  margin-bottom: 15px;
+
+}
+.notify-sidebar{
+  border-style: solid;
+  width: 400px;
+  border-width: 1px;
+  border-color: rgba(196, 195, 195, 0.767);
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 8px;
+  
+}

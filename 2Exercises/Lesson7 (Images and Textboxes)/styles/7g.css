@@ -1,0 +1,31 @@
+img{
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+input{
+  font-size: 18px;
+  font-family: Arial;
+  border: none;
+  margin-right: 50px;
+  vertical-align: middle;
+}
+
+button{
+  background-color: rgb(8, 172, 236);
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 30px;
+  vertical-align: middle;
+}

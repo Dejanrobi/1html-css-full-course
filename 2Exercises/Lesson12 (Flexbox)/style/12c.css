@@ -1,0 +1,9 @@
+.item1{
+  background-color: lightpink;
+}
+
+.flex-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

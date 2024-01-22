@@ -1,0 +1,40 @@
+.image{
+  width: 220px;
+  height: 130px;
+  object-fit: cover;
+  object-position: center;
+}
+
+p{
+  font-family: Roboto, Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.video-name{
+  margin-top: 3px;
+  font-weight: 700;
+  font-size: 17px;
+  margin-bottom: 9px;
+}
+
+.channel-name, .video-stats{
+  font-size: 15px;
+  opacity: 0.9;
+  margin-bottom: 3px;
+}
+
+.image-div, .description-div{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 8px;
+}
+
+.video{
+  vertical-align: top;
+  margin-top: 7px;
+}
+
+.description-div{
+  width: 250px;
+}

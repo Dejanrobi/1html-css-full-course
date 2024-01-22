@@ -1,0 +1,14 @@
+.satisfaction{
+  font-family: Arial;
+  font-size: 18px;
+  border: solid;
+  border-width: 1px;
+  padding-left: 25px;
+  padding-bottom: 25px;
+  width: 300px;
+}
+
+button{
+  font-family: Arial;
+  font-size: 18px;
+}

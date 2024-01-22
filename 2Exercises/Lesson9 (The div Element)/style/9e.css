@@ -1,0 +1,45 @@
+img{
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+input{
+  font-size: 18px;
+  font-family: Arial;
+  border: none;
+  margin-right: 50px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+button{
+  background-color: rgb(8, 172, 236);
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 30px;
+  vertical-align: middle;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.whats-happening{
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  /*right bottom blur rgba(red, green, blue, opacity)*/
+  border-radius: 7px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  width: 470px;
+}

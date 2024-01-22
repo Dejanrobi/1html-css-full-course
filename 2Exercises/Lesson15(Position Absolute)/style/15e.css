@@ -1,0 +1,25 @@
+img{
+  width: 300px;
+  height: 300px;
+  /* position: absolutes; */
+}
+
+.off{
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 4px;
+  right: 0;
+  font-family: Roboto, Arial;
+  font-size: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 8px;
+  padding-left: 8px;
+  opacity: 0.8  ;
+}
+
+.image-box{
+  position: absolute;
+  width: 300px;
+}

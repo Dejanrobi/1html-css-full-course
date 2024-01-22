@@ -1,0 +1,14 @@
+p{
+  width: 240px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 20px;
+  margin-right: 9px;
+  
+}
+
+button{
+  /* display: inline-block; */
+  vertical-align: middle;
+  font-size: 18px;
+}

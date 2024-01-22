@@ -1,0 +1,56 @@
+.image {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+
+p{
+  font-family: Arial;
+  font-size: 18px;
+  line-height: 10px;
+}
+
+.name{
+  font-weight: bold;
+}
+
+.description, .popularity{
+  color: grey;
+  opacity: 0.7;
+  
+}
+
+.follow-button{
+  background-color: rgb(6, 132, 235);
+  color: white;
+  border: none;
+  padding-top: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 12px;
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 6px;
+  opacity: 0.7;
+
+}
+
+.image-box, .description-box, .follow-box {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 18px;
+}
+
+.description-box{
+  width: 230px;
+}
+
+.follow-block{
+  margin-top: 20px;
+}
+
+.popularity{
+  font-size: 16px;
+}

@@ -1,0 +1,23 @@
+.item1{
+  background-color: black;
+  color: white;
+}
+
+.column1{
+  background-color: lightblue;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column2{
+  background-color: lightpink;
+  width: 200px;
+}
+
+.flexbox{
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}

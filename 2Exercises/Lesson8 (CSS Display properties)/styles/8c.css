@@ -1,0 +1,32 @@
+
+input{
+  display: block;
+  /* text-align: center; */
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 30px;
+  padding-right: 13px;
+  border-radius: 50px;
+  border: none;
+  font-size: 17px;
+  
+  box-shadow:inset 0px 0px 5px rgba(0, 0, 0, 0.15);
+  /*right bottom blur rgba(red, green, blue, opacity*/
+
+
+  
+}
+
+img{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+}
+
+.search{
+  text-align: center;
+}

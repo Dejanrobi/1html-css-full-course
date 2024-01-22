@@ -1,0 +1,54 @@
+img{
+  width: 300px;
+  height: 300px;
+}
+
+.off{
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 4px;
+  right: 0;
+  font-family: Roboto, Arial;
+  font-size: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 8px;
+  padding-left: 8px;
+  opacity: 0.8;
+}
+
+/*Position: absolute is used to place items on corners of other items*/
+/*If the item scrolls, its placed within a relative item. if the item is fixed it is placed under position:fixed*/
+/*Setting an item to the corner of another: always set a position absolute inside a position relative.*/
+.image-box{
+  position: relative;
+  width: 300px;
+}
+
+.white{
+  width: 300px;
+  height: 110px;
+  background-color: rgba(255, 255, 255, 0.233);
+  /* background-color: black; */
+  position: absolute;
+  bottom: 0;
+  
+}
+
+.add-button{
+  z-index: 10;
+  background-color: white;
+  position: absolute;
+  left: 91px;
+  top: 20px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 15px;
+  font-weight: 600;
+  border-style: solid;
+  border-radius: 1px;
+
+}

@@ -1,0 +1,32 @@
+p{
+  font-family: Arial;
+  font-size: 15px;
+  color: grey;
+
+}
+
+.email{
+  margin-bottom: 6px;
+}
+
+.input-bar{
+  width: 317px;
+  height: 27px;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 3px;
+  color: grey;
+}
+
+.agree-button{
+  background-color: rgb(48, 48, 180);
+  color: white;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 108px;
+  padding-right: 108px;
+  border-radius: 30px;
+}
