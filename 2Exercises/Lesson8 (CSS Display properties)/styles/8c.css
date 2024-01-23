@@ -13,12 +13,11 @@ input{
   border: none;
   font-size: 17px;
   
+  /* setting the box-shadow inside the element */
   box-shadow:inset 0px 0px 5px rgba(0, 0, 0, 0.15);
-  /*right bottom blur rgba(red, green, blue, opacity*/
-
-
-  
+  /*right bottom blur rgba(red, green, blue, opacity*/  
 }
+
 
 img{
   display: block;
